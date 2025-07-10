@@ -1,0 +1,14 @@
+{
+  "modid": "yourmod",
+  "name": "Your Mod",
+  "description": "A sample Minecraft mod",
+  "version": "1.0.0",
+  "mcversion": "1.21.7",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["YourName"],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}

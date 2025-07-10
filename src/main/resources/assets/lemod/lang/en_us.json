@@ -1,0 +1,8 @@
+{
+    "creativetab.lemod.lemod_tab": "Lé Mod",
+    "item.lemod.example_item": "Example Item",
+    "item.lemod.custom_tool": "Custom Tool",
+    "block.lemod.example_block": "Example Block",
+    "tooltip.lemod.example_item": "This is an example item from Lé Mod",
+    "tooltip.lemod.custom_tool": "A custom tool with special properties"
+}

@@ -1,0 +1,36 @@
+modLoader = "javafml"
+loaderVersion = "[57,)"
+license = "MIT"
+issueTrackerURL = "https://github.com/Bobbyyy9/lemod/issues"
+displayURL = "https://github.com/Bobbyyy9/lemod"
+
+[[mods]]
+modId = "lemod"
+version = "${file.jarVersion}"
+displayName = "Lé Mod"
+updateJSONURL = ""
+displayURL = "https://github.com/Bobbyyy9/lemod"
+logoFile = "logo.png"
+credits = "Created with love and dedication"
+authors = "Bobbyyy9"
+description = '''
+Le all encompassing mod for Minecraft - bringing quality of life improvements and new features to your world!
+'''
+
+# Optional: Mixin configuration (uncomment if using mixins)
+# [[mixins]]
+# config="lemod.mixins.json"
+
+[[dependencies.lemod]]
+modId = "forge"
+mandatory = true
+versionRange = "[57.0.2,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.lemod]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.21.7]"
+ordering = "NONE"
+side = "BOTH"

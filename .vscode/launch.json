@@ -1,0 +1,79 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Debug Minecraft Client",
+            "request": "launch",
+            "mainClass": "net.minecraftforge.bootstrap.ForgeBootstrap",
+            "args": [
+                "--launchTarget",
+                "forge_userdev_client",
+                "--version",
+                "MOD_DEV",
+                "--assetIndex",
+                "26",
+                "--assetsDir",
+                "${env:HOME}\\.gradle\\caches\\forge_gradle\\assets",
+                "--gameDir",
+                "."
+            ],
+            "vmArgs": [
+                "-Dforge.logging.markers=REGISTRIES",
+                "-Dforge.logging.console.level=debug",
+                "-Xmx4G",
+                "-Xms1G"
+            ],
+            "cwd": "${workspaceFolder}/run",
+            "console": "internalConsole",
+            "internalConsoleOptions": "openOnSessionStart"
+        },
+        {
+            "type": "java",
+            "name": "Debug Minecraft Server",
+            "request": "launch",
+            "mainClass": "net.minecraftforge.bootstrap.ForgeBootstrap",
+            "args": [
+                "--launchTarget",
+                "forge_userdev_server",
+                "--version",
+                "MOD_DEV"
+            ],
+            "vmArgs": [
+                "-Dforge.logging.markers=REGISTRIES",
+                "-Dforge.logging.console.level=debug",
+                "-Xmx2G",
+                "-Xms1G"
+            ],
+            "cwd": "${workspaceFolder}/run",
+            "console": "internalConsole",
+            "internalConsoleOptions": "openOnSessionStart"
+        },
+        {
+            "type": "java",
+            "name": "Run Data Generator",
+            "request": "launch",
+            "mainClass": "net.minecraftforge.bootstrap.ForgeBootstrap",
+            "args": [
+                "--launchTarget",
+                "forge_userdev_data",
+                "--version",
+                "MOD_DEV",
+                "--mod",
+                "lemod",
+                "--all",
+                "--output",
+                "${workspaceFolder}/src/generated/resources/",
+                "--existing",
+                "${workspaceFolder}/src/main/resources/"
+            ],
+            "vmArgs": [
+                "-Dforge.logging.markers=REGISTRIES",
+                "-Dforge.logging.console.level=debug"
+            ],
+            "cwd": "${workspaceFolder}/run",
+            "console": "internalConsole",
+            "internalConsoleOptions": "openOnSessionStart"
+        }
+    ]
+}

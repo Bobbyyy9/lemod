@@ -1,0 +1,32 @@
+modLoader="javafml"
+loaderVersion="[57,)"
+license="MIT"
+issueTrackerURL=""
+displayURL=""
+
+[[mods]]
+modId="yourmod"
+version="1.0.0"
+displayName="Your Mod"
+updateJSONURL=""
+displayURL=""
+logoFile=""
+credits=""
+authors="YourName"
+description='''
+A sample Minecraft mod created with MinecraftForge for Minecraft 1.21.7
+'''
+
+[[dependencies.yourmod]]
+modId="forge"
+mandatory=true
+versionRange="[57.0.2,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.yourmod]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.21.7]"
+ordering="NONE"
+side="BOTH"

@@ -1,0 +1,20 @@
+{
+    "recommendations": [
+        "vscjava.vscode-java-pack",
+        "vscjava.vscode-gradle",
+        "redhat.java",
+        "vscjava.vscode-java-debug",
+        "vscjava.vscode-java-test",
+        "vscjava.vscode-maven",
+        "formulahendry.auto-rename-tag",
+        "ms-vscode.vscode-json",
+        "ms-vscode.powershell",
+        "eamodio.gitlens",
+        "tamasfe.even-better-toml",
+        "mechatroner.rainbow-csv",
+        "ms-vscode.hexeditor",
+        "christian-kohler.path-intellisense",
+        "formulahendry.code-runner",
+        "ms-vscode.vscode-typescript-next"
+    ]
+}
