@@ -2,6 +2,11 @@
 
 Le all encompassing mod for Minecraft 1.21.1+ with Forge 52.0.26
 
+![Version](https://img.shields.io/badge/version-1.0.0-brightgreen.svg)
+![Minecraft](https://img.shields.io/badge/minecraft-1.21.1--1.21.7+-blue.svg)
+![Forge](https://img.shields.io/badge/forge-52.0.26+-orange.svg)
+![License](https://img.shields.io/badge/license-MIT-green.svg)
+
 ## Description
 
 Lé Mod is a comprehensive Minecraft mod that aims to enhance your gameplay experience with quality of life improvements and new features. Created with love and dedication by Bobbyyy9. Compatible with Minecraft 1.21.1 through 1.21.7+.
@@ -223,5 +228,15 @@ Created by **Bobbyyy9** with ❤️
 
 ## Support
 
-- Issues: [GitHub Issues](https://github.com/Bobbyyy9/lemod/issues)
-- Discussions: [GitHub Discussions](https://github.com/Bobbyyy9/lemod/discussions)
+- **📋 Changelog**: [CHANGELOG.md](CHANGELOG.md) - View all version history and updates
+- **🐛 Issues**: [GitHub Issues](https://github.com/Bobbyyy9/lemod/issues)
+- **💬 Discussions**: [GitHub Discussions](https://github.com/Bobbyyy9/lemod/discussions)
+- **📦 Releases**: [GitHub Releases](https://github.com/Bobbyyy9/lemod/releases)
+
+## Version History
+
+**Current Version: 1.0.0** (2025-07-10)
+- Complete mod restoration from corrupted state
+- Full compatibility with Minecraft 1.21.1-1.21.7+
+- Modern Forge support (52.0.26+ through 57.0.2+)
+- See [CHANGELOG.md](CHANGELOG.md) for detailed version history
