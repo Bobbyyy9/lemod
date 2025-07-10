@@ -1,5 +1,5 @@
 modLoader = "javafml"
-loaderVersion = "[57,)"
+loaderVersion = "[52,)"
 license = "MIT"
 issueTrackerURL = "https://github.com/Bobbyyy9/lemod/issues"
 displayURL = "https://github.com/Bobbyyy9/lemod"
@@ -24,13 +24,13 @@ Le all encompassing mod for Minecraft - bringing quality of life improvements an
 [[dependencies.lemod]]
 modId = "forge"
 mandatory = true
-versionRange = "[57.0.2,)"
+versionRange = "[52.0.26,)"
 ordering = "NONE"
 side = "BOTH"
 
 [[dependencies.lemod]]
 modId = "minecraft"
 mandatory = true
-versionRange = "[1.21.7]"
+versionRange = "[1.21.1,1.22)"
 ordering = "NONE"
 side = "BOTH"

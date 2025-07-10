@@ -1,7 +1,7 @@
 plugins {
     id 'eclipse'
     id 'maven-publish'
-    id 'net.minecraftforge.gradle' version '6.0.24'
+    id 'net.minecraftforge.gradle' version '6.0.26'
 }
 
 version = "${minecraft_version}-${mod_version}"
@@ -44,12 +44,10 @@ minecraft {
                 }
             }
 
-            // Enhanced JVM arguments for better performance and debugging
+            // Simple JVM arguments for Java 17 compatibility
             jvmArgs = [
                 '-Xmx4G',
-                '-Xms1G',
-                '-XX:+UseG1GC',
-                '-XX:+AllowEnhancedClassRedefinition'
+                '-Xms1G'
             ]
         }
 
